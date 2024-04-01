@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="butterfly-kids-regular">To Do List</h1>
+        <p class="create">Create Task</p>
+        <div class="input-div">
+            <input class="input-tag" type="text" placeholder="Enter Your Task" id="inputvalue">
+            <button class="submit-btn" onclick="submitfun()">Add Task</button>
+        </div>
+        <div class="card">
+            <h2>List of Tasks</h2>
+            <div id="cardlist" class="card-List">
+
+            </div>
+        </div>
+        <button class="save-btn" onclick="onSaveTodo()">Save</button>
+    </div>
+
+    <!-- javaScript file connection -->
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 20px 0px ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(todo_img.jpg);
+
+}
+
+.input-div{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 3%;
+    
+}
+
+.input-tag{
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    height: 6vh;
+    width: 30vw;
+    text-align: center;
+    font-size: 15px;
+}
+
+.submit-btn{
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 6vh;
+    width: 10vw;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+
+.card{
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: left;
+    width: 94%;
+    gap: 2%;
+}
+
+.card-style{
+    margin: 1%;
+    border-radius: 10px;
+    padding: 2% 6% 2% 6%;
+    display: flex;
+    align-items: center;
+}
+
+.label-style{
+    height: 2vh;
+    margin-left: 2%;
+    width: 20vw;
+    border-radius: 5px;
+    padding: 2% 4% 2% 4%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    background-color:rgba(67, 64, 64, 0.541);
+}
+
+.text-line{
+    text-decoration: line-through;
+}
+
+.delete{
+    height: 4vh;
+}
+
+.save-btn{
+    border: none;
+    width: 6vw;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 5px 8px 5px 8px;
+    font-size: 18px;
+    background: blue;
+    color: white;
+}
+
+.bullet{
+    width: 20px;
+    height: 20px;
+}
+
+h2{
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.create{
+    margin-top: 10px;
+    color:rgb(61,90,248);
+    font-size: 25px;
+    font-weight: bold;
+}
+/* .butterfly-kids-regular {
+    font-family: "Butterfly Kids", cursive;
+    font-weight: 1000;
+    font-style: normal;
+} */
